@@ -9,6 +9,6 @@ end
 
 avg = scores.inject(:+) / test_count
 scores.inject(:+)
-# puts "%.2f" % avg
+
 avg = "%.2f" % avg
 puts "Your average was #{avg}"
